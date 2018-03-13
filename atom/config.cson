@@ -1,0 +1,17 @@
+"*":
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/jlincoln/code"
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+    preferredLineLength: 200
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "f56566e7-9864-49d6-a4c9-c01cd18fc16b"
+  "tree-view": {}
