@@ -18,11 +18,44 @@ and then cask with:
 
 ```
 brew tap caskroom/cask
+
+OR
+
+brew install cask
 ```
 
 All set.
 
 ## Install Core Dev Software
+
+```
+brew cask install google-chrome
+```
+
+```
+brew cask install iterm2
+```
+
+```
+brew cask install atom
+```
+
+```
+brew install htop
+```
+
+```
+brew install wget
+```
+
+```
+brew install nmap
+```
+
+```
+brew install bash-completion
+```
+
 
 ### PHP
 
