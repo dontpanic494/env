@@ -1,7 +1,11 @@
 "*":
+  "atom-beautify":
+    php:
+      beautify_on_save: true
   core:
     disabledPackages: [
       "spell-check"
+      "react"
     ]
     openEmptyEditorOnStart: false
     projectHome: "/Users/jlincoln/code"
@@ -11,7 +15,12 @@
     preferredLineLength: 200
     showIndentGuide: true
     showInvisibles: true
+    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "f56566e7-9864-49d6-a4c9-c01cd18fc16b"
   "tree-view": {}
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
