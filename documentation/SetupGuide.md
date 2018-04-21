@@ -56,6 +56,13 @@ brew install nmap
 brew install bash-completion
 ```
 
+### Docker
+
+Install docker using homebrew:
+
+```
+brew install docker
+```
 
 ### PHP
 
