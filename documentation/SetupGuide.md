@@ -41,6 +41,10 @@ brew cask install atom
 ```
 
 ```
+brew install tree
+```
+
+```
 brew install htop
 ```
 
@@ -62,6 +66,12 @@ Install docker using homebrew:
 
 ```
 brew install docker
+```
+
+Install docker for mac (application):
+
+```
+brew cask install docker
 ```
 
 ### PHP
