@@ -124,3 +124,7 @@ ssh -T git@github.com
 ```
 
 All set.
+
+# Ubuntu Docker Core Setup
+
+# Traefik Proxy Setup
