@@ -1,4 +1,4 @@
-# Ubuntu LAMP Stack Core Setup
+# Ubuntu Raw VM
 
 Spin up a LAMP VM using Ubuntu.
 
@@ -20,76 +20,9 @@ All set.
 
 ## Install Core Software
 
-### Apache
+### Docker
 
-Install Apache:
-
-```
-sudo apt-get install apache2
-```
-
-Test with:
-
-```
-sudo service apache2 restart
-```
-
-All set.
-
-### PHP
-
-Grab the PHP repo:
-
-```
-sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
-sudo apt-get update
-```
-
-Install the correct version:
-
-```
-sudo apt-get install php5.6
-```
-
-Install mcrypt:
-
-```
-sudo apt-get install php5.6-mcrypt
-```
-
-Install dom:
-
-```
-sudo apt-get install php5.6-dom
-```
-
-Install mbstring:
-
-```
-sudo apt-get install php5.6-mbstring
-```
-
-All set.
-
-### MySQL
-
-Install MySQL:
-
-```
-sudo apt-get install mysql-server
-```
-
-Update:
-
-```
-sudo apt-get update
-```
-
-Restart Apache once MySQL install is complete:
-
-```
-sudo service apache2 restart
-```
+### Docker Compose
 
 ### Git
 
@@ -124,6 +57,10 @@ ssh -T git@github.com
 ```
 
 All set.
+
+### Other Helpful Things
+
+Like grep/wget/other helpful tools when ssh'ed into the vm.
 
 # Ubuntu Docker Core Setup
 
