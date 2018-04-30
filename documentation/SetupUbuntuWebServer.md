@@ -1,6 +1,6 @@
 # Ubuntu Raw VM
 
-Spin up a LAMP VM using Ubuntu.
+Spin up an Ubuntu 16 VM.
 
 ## Getting Started
 
