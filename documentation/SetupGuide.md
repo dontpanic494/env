@@ -60,6 +60,14 @@ brew install nmap
 brew install bash-completion
 ```
 
+```
+brew install jenv
+```
+
+```
+brew install eclipse-*
+```
+
 ### Docker
 
 Install docker using homebrew:
