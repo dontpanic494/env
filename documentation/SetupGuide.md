@@ -61,6 +61,10 @@ brew install bash-completion
 ```
 
 ```
+brew install java
+```
+
+```
 brew install jenv
 ```
 
