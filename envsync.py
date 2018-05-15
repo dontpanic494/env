@@ -13,7 +13,7 @@ time.sleep(1)
 
 # Sync bash profile
 print("Syncing .bash_profile...")
-shutil.copyfile("/Users/jlincoln/.bash_profile", destination + ".bash_profile")
+shutil.copyfile("/Users/jlincoln/.bash_profile", destination + "dotfiles/.bash_profile")
 print(".bash_profile sync complete!")
 time.sleep(.25)
 
@@ -30,7 +30,7 @@ print("Global git config file sync complete!")
 
 # Sync vim config file
 print("Syncing .vimrc...")
-shutil.copyfile("/Users/jlincoln/.vimrc", destination + ".vimrc")
+shutil.copyfile("/Users/jlincoln/.vimrc", destination + "dotfiles/.vimrc")
 print(".vimrc sync complete!")
 time.sleep(.25)
 
