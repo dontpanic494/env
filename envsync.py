@@ -50,11 +50,5 @@ shutil.copyfile("/Users/jlincoln/.atom/styles.less", destination + "atom/styles.
 time.sleep(.25)
 print("Atom config file sync complete!")
 
-# Sync this script last
-print("Lastly, syncing envsync.py...")
-shutil.copyfile("/Users/jlincoln/envsync.py", destination + "envsync.py")
-time.sleep(.25)
-print("envsync.py snyc complete!")
-
 #TODO: report actual status here
 print("Environment successfully synced!")
