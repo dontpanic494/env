@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.renderWhitespace": "all"
+}

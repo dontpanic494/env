@@ -34,6 +34,12 @@ shutil.copyfile("/Users/jlincoln/.vimrc", destination + "dotfiles/.vimrc")
 print(".vimrc sync complete!")
 time.sleep(.25)
 
+# Sync Visual Studio Code config file
+print("Syncing Visual Studio Code settings...")
+shutil.copyfile("/Users/jlincoln/Library/Application Support/Code/User/settings.json", destination + "dotfiles/vsc_settings.json")
+print("Visual Studio Code settings sync complete!")
+time.sleep(.25)
+
 # Sync Atom config files
 print("Syncing Atom config files...")
 print("Syncing config.cson [1/4]")
