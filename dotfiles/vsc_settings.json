@@ -1,5 +1,6 @@
 {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "workbench.colorTheme": "Monokai Dimmed",
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "php.validate.executablePath": "/usr/bin/php"
 }
